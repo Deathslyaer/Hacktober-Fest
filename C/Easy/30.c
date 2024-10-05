@@ -21,6 +21,9 @@ int main() {
         case 'F':
             printf("Failed.");
             break;
+        default:
+        printf("Invalid Choice.");
+        break;    
     }
     return 0;
 }
