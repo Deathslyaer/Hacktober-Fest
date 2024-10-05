@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<string.h>
 
 struct person {
     char name[20];
@@ -12,7 +13,7 @@ int main() {
     printf("Enter name: ");
     scanf("%s", p1.name);
     printf("Enter age: ");
-    scanf("%d", p1.age);
+    scanf("%d", &p1.age);
     display(p1);
     return 0;
 }
