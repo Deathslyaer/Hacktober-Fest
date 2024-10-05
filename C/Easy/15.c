@@ -6,6 +6,6 @@ int main() {
     return 0;
 }
 
-void printMessage() {
+int printMessage() {
     printf("Hello, World!\n");
 }
